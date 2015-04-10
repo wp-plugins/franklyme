@@ -4,7 +4,7 @@
 * Plugin Name: Frankly.me
 * Description: Embed Frankly.me social widgets and grow your audience on frankly.me. Official Frankly.me wordpress plugin.
 * Author: Frankly.me
-* Version: 1.0
+* Version: 1.1
 * Author URI: http://frankly.me
 * Plugin URI: https://wordpress.org/plugins/franklyme/
 * Text Domain: frankly-me
