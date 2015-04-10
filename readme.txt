@@ -101,12 +101,9 @@ Administrator is allowed to add side pane widgets and generate shortcodes for al
 
 
 == Upgrade Notice ==
-Automatically embed ask button to posts, improved admin panel interface & handling for multi-authored blogs.
+*First Release
 
 == Changelog ==
-
-= 1.1 =
-Automatically embed Ask buttons to your posts, improved admin panel interface and improved handling for multi-authored blogs.
 
 = 1.0 =
 * Launch.
