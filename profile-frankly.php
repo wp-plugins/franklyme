@@ -3,6 +3,7 @@
 
 function frankly_add_custom_user_profile_fields( $user ) {
 ?>
+
 	<h3><?php _e('Frankly.me Profile Information', 'frankly-me'); ?></h3>
 	
 	<table class="form-table">
@@ -16,7 +17,9 @@ function frankly_add_custom_user_profile_fields( $user ) {
 			</td>
 		</tr>
 	</table>
-<?php }
+
+<?php 
+}
 
 function frankly_save_custom_user_profile_fields( $user_id ) {
 	
