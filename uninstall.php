@@ -10,6 +10,6 @@
 	$delete_all = true;
 
 	delete_metadata( $meta_type, $user_id, $meta_key, $meta_value, $delete_all );
-	
+	delete_option('addASK');
 ?>
 
