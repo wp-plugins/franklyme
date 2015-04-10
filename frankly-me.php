@@ -5,8 +5,8 @@
 * Description: Embed Frankly.me social widgets and grow your audience on frankly.me. Official Frankly.me wordpress plugin.
 * Author: Frankly.me
 * Version: 1.0
-* Plugin URI: http://wordpress.org/plugins/franklyme/
 * Author URI: http://frankly.me
+* Plugin URI: https://wordpress.org/plugins/franklyme/
 * Text Domain: frankly-me
 * License: GPLv2
 **/
@@ -28,8 +28,19 @@
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
+
 include_once('sidepane-widget.php');
 include_once('embed.php');
 include_once('profile-frankly.php');
+include_once('filters.php');
+
+function franklyPluginPage($links) {
+     $settings_link = '<a href="options-general.php?page=frankly">'. __( "Settings", "frankly-me" ) .'</a>';
+     array_unshift($links, $settings_link);
+     return $links;
+}
+$plugin = plugin_basename(__FILE__);
+
+add_filter("plugin_action_links_$plugin", 'franklyPluginPage' );
 
 ?>

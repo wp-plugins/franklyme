@@ -3,7 +3,7 @@ Contributors: abhishekgupta92
 Tags: frankly.me, frankly, askme, answers, post, video, selfie, celebrities, social, sidebar, posts, wordpress, widget, sidepane, embed, shortcodes, frankly cards
 Requires at least: 3.0.1
 Tested up to: 4.1.1
-Stable tag: 1.0
+Stable tag: 1.1
 Donate link: http://frankly.me/
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -19,7 +19,7 @@ The Frankly.me plugin for WordPress adds Frankly.me social plugins to your WordP
 = Features =
 
 * You can add our widgets to wordpress's sidepane or embed them within your post.
-* [Embed Ask Me Button]	
+* [Auto Embed Ask Me Button to your posts]	
 * [Embed User Profile Information]
 * [Embed User Profile Intro Video]
 * [Embed Specific Posts]
@@ -46,8 +46,13 @@ e.g.
 
 1. Either upload `frankly-me.zip` in add plugin menu in administration panel or extract it and upload the `frankly-me` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Head on to wordpress profile settings to required user and add his frankly.me profile information.
-4. Use the sidepane widgets or the embed shortcodes as required.
+3. Click Plugin Settings under plugin name after activation or head on to Settings > Frankly.me.
+4. Follow the user configuration setup.
+5. Auto embed ask button or use the sidepane widgets or the embed shortcodes as required.
+
+* Frankly.me Automatic Ask Buttons
+To automatically embed Frankly.me Ask Me buttons to your author's posts, you can set this up in "Add Ask Me Widget to your posts" sections in Frankly.me settings. You can setup frankly.me user names of your blog's authors and leave rest to us to appropriately place ask buttons from specific person as per the author of the post.
+You are also required to provid a default frankly.me profile in case some authors' of your posts doesn't have one.
 
 * Frankly.me Side Pane widgets
 To use Frankly.me Ask Me side pane widgets, you can add them from the widgets menu in customize section of admin panel.
@@ -61,20 +66,24 @@ To use Frankly.me Ask Me embed widgets, use our Frankly.me Embed widget Tag Gene
 == Frequently Asked Questions ==
 
 
-= I get an error message in red colour while adding a widget? =
-You have missed an important step. You need to go to wordpress's user settings and add user's frankly.me profile information in their profiles.
+= My blog has multiple authors can i add widgets from more than one among them ? =
+
+Yes, given that their frankly.me user id's are registered in wordpress user settings. If you add automatic social widgets to your posts you will need to select one default frankly me username to use when the author's frankly.me user name isn't registered with the plugin.
+
+= How can i automatically add ask buttons to my posts? =
+
+Head on to Administration Panel > Settings > Frankly.me, after that follow the configuration for ask me buttons.
 
 = How can i add widgets to sidepane? =
 
 Add frankly.me side pane widgets from the customize option in administration panel of wordpress.
 
+= I get an error message in red colour while adding a widget? =
+You have missed an important step. You need first configure user's frankly.me profile either in Settings > Frakly.me or in User Profile > Frankly.me User Info. 
+
 = How can i use shortcodes? =
 
 Use the shortcode generator from Setting>Frankly.me. Copy the generated shortcodes and use them in your posts directly.
-
-= My blog has multiple authors can i add widgets from more than one among them ? =
-
-Yes, given that their frankly.me user id's are registered in wordpress user settings.
 
 = What features are allowed to administrator, authors and other users respectively? =
 
@@ -84,15 +93,20 @@ Administrator is allowed to add side pane widgets and generate shortcodes for al
 == Screenshots ==
 
 1. Sample Ask Me anything Vertical descriptive widget.
-2. Adding frankly.me user settings in site's user profile.
+2. Initial setup sccreen in Settings > Frankly.me.
 3. Adding widget to sidepane.
-4. Adding Embed Shortcodes.
+4. Configuring auto embedding of ask buttons to user posts.
+5. Adding Embed Shortcodes.
+6. Customizing frankly.me user name of a user in his Site's user settings.
 
 
 == Upgrade Notice ==
-* First Release
+Automatically embed ask button to posts, improved admin panel interface & handling for multi-authored blogs.
 
 == Changelog ==
+
+= 1.1 =
+Automatically embed Ask buttons to your posts, improved admin panel interface and improved handling for multi-authored blogs.
 
 = 1.0 =
 * Launch.
