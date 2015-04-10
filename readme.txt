@@ -3,7 +3,7 @@ Contributors: abhishekgupta92
 Tags: frankly.me, frankly, askme, answers, post, video, selfie, celebrities, social, sidebar, posts, wordpress, widget, sidepane, embed, shortcodes, frankly cards
 Requires at least: 3.0.1
 Tested up to: 4.1.1
-Stable tag: 1.0
+Stable tag: 1.1
 Donate link: http://frankly.me/
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -101,9 +101,14 @@ Administrator is allowed to add side pane widgets and generate shortcodes for al
 
 
 == Upgrade Notice ==
-*First Release
+Automatically embed ask button to posts, improved admin panel interface & handling for multi-authored blogs.
 
 == Changelog ==
+
+= 1.1 =
+* Automatically embed Ask buttons to your posts
+* Improved admin panel interface
+* Improved handling for multi-authored blogs.
 
 = 1.0 =
 * Launch.
