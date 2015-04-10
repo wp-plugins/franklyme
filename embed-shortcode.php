@@ -14,7 +14,7 @@
 
         $a = shortcode_atts(
             array(
-                'id' => '1',
+                'wpid' => '1',
                 'height' => '20px',
                 'width'  => '52px',
                 'style'    => 'float:right',
@@ -22,9 +22,9 @@
             ), $atts);
 
 
-            if ( ! empty( $a['id'] ) ) {
+            if ( ! empty( $a['wpid'] ) ) {
 
-                $uid = get_user_meta ( $a['id'], frankly, true );
+                $uid = get_user_meta ( $a['wpid'], frankly, true );
                 
                 if( $uid != NULL ){
 
@@ -50,7 +50,7 @@
         $a = shortcode_atts(
             array(
 
-                'id'  =>  '1',
+                'wpid'  =>  '1',
                 'height' => '50px',
                 'width'  => '255px',
                 'style'    => 'float:right',
@@ -58,9 +58,9 @@
             ), $atts);
 
 
-            if ( ! empty( $a['id'] ) ) {
+            if ( ! empty( $a['wpid'] ) ) {
 
-                $uid = get_user_meta ( $a['id'], frankly, true );
+                $uid = get_user_meta ( $a['wpid'], frankly, true );
 
                 if( $uid != NULL ){
 
@@ -88,15 +88,15 @@
         $a = shortcode_atts(
             array(
 
-                'id'  =>  '1',
+                'wpid'  =>  '1',
                 'height' => '444px',
                 'width'  => '202px',
                 'style'    => 'float:right',
             ), $atts);
 
-            if ( ! empty( $a['id'] ) ) {
+            if ( ! empty( $a['wpid'] ) ) {
 
-                $uid = get_user_meta ( $a['id'], frankly, true );
+                $uid = get_user_meta ( $a['wpid'], frankly, true );
 
                 if( $uid != NULL ){
 
@@ -122,16 +122,16 @@
         $a = shortcode_atts(
             array(
 
-                'id'  =>  '1',
+                'wpid'  =>  '1',
                 'height' => '480px',
                 'width'  => '640px',
                 'style'    => 'float:right',
 
             ), $atts);
 
-            if ( ! empty( $a['id'] ) ) {
+            if ( ! empty( $a['wpid'] ) ) {
                 
-                $uid = get_user_meta ( $a['id'], frankly, true );
+                $uid = get_user_meta ( $a['wpid'], frankly, true );
                 
                 if( $uid != NULL ){
 
@@ -162,7 +162,7 @@
         $a = shortcode_atts(
             array(
 
-                'id'  =>  '1',
+                'wpid'  =>  '1',
                 'type'   => 'lg',
                 'height' => '480px',
                 'width'  => '640px',
@@ -174,9 +174,9 @@
 
         if($a['type']=='ask') {
 
-            if ( ! empty( $a['id'] ) ) {
+            if ( ! empty( $a['wpid'] ) ) {
 
-                $uid = get_user_meta ( $a['id'], frankly, true );
+                $uid = get_user_meta ( $a['wpid'], frankly, true );
                 
                 if( $uid != NULL ){
 
@@ -203,9 +203,9 @@
 
         else if($a['type']=='ask_lg') {
 
-            if ( ! empty( $a['id'] ) ) {
+            if ( ! empty( $a['wpid'] ) ) {
 
-                $uid = get_user_meta ( $a['id'], frankly, true );
+                $uid = get_user_meta ( $a['wpid'], frankly, true );
                 
                 if( $uid != NULL ){
 
@@ -231,10 +231,10 @@
 
         else if($a['type']=='sm') {
 
-            if ( ! empty( $a['id'] ) ) {
+            if ( ! empty( $a['wpid'] ) ) {
 
                 
-                $uid = get_user_meta ( $a['id'], frankly, true );
+                $uid = get_user_meta ( $a['wpid'], frankly, true );
                 
                 if( $uid != NULL ){
 
@@ -262,9 +262,9 @@
 
         else if($a['type']=='lg') {
 
-            if ( ! empty( $a['id'] ) ) {
+            if ( ! empty( $a['wpid'] ) ) {
 
-                $uid = get_user_meta ( $a['id'], frankly, true );
+                $uid = get_user_meta ( $a['wpid'], frankly, true );
                 
                 if( $uid != NULL ){
 
